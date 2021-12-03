@@ -152,4 +152,4 @@ Week 10 Demo:
 Link to GIF (https://imgur.com/a/QIaAQMU.gif)
 
 Week 11 Demo:
-![Demo](/Demo/userLogin.gif)
+<img src='/Demo/userLogin.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' />

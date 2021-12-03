@@ -28,7 +28,7 @@ Our goal is to enable potential owners to find the right pet, giving each shelte
 
 **Required Must-have Stories**
 - [x] User have a login screen
-- [ ] User can register a new account
+- [x] User can register a new account
 - [ ] User can login 
 - [ ] User can select the attributes and characteristics of pets 
 - [ ] User can add pets to intereseted/not interested by swiping left and right

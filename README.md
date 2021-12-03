@@ -80,7 +80,7 @@ Our goal is to enable potential owners to find the right pet, giving each shelte
 
 ## Wireframes
 
-![Demo](https://i.ibb.co/4gSL05w/Screen-Shot-2021-11-14-at-4-27-47-PM.png)
+![Demo](https://github.com/jhong97/YourNewHome/blob/master/Demo/wireframes.png)
 
 ### [BONUS] Digital Wireframes & Mockups
 

@@ -16,6 +16,8 @@
 		378986D52751B3EC00BDCC80 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378986D42751B3EC00BDCC80 /* LoginViewController.swift */; };
 		378986D72751B40200BDCC80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 378986D62751B40100BDCC80 /* GoogleService-Info.plist */; };
 		76DB4DB76F3CA8B631F3AE41 /* Pods_yourNewHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824E929B5667CB0E73761228 /* Pods_yourNewHome.framework */; };
+		98632F75275AB6E5003133F6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98632F74275AB6E5003133F6 /* FeedViewController.swift */; };
+		98632F77275AC400003133F6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98632F76275AC400003133F6 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		378986D42751B3EC00BDCC80 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		378986D62751B40100BDCC80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		824E929B5667CB0E73761228 /* Pods_yourNewHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yourNewHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98632F74275AB6E5003133F6 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		98632F76275AC400003133F6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		F3E8F0AB04551B0706F6EA35 /* Pods-yourNewHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yourNewHome.debug.xcconfig"; path = "Target Support Files/Pods-yourNewHome/Pods-yourNewHome.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +74,9 @@
 				378986D62751B40100BDCC80 /* GoogleService-Info.plist */,
 				378986D42751B3EC00BDCC80 /* LoginViewController.swift */,
 				37331A7B2751A9100060F7FE /* AppDelegate.swift */,
+				98632F74275AB6E5003133F6 /* FeedViewController.swift */,
 				37331A7D2751A9100060F7FE /* SceneDelegate.swift */,
+				98632F76275AC400003133F6 /* SignUpViewController.swift */,
 				37331A7F2751A9100060F7FE /* ViewController.swift */,
 				37331A812751A9100060F7FE /* Main.storyboard */,
 				37331A842751A9120060F7FE /* Assets.xcassets */,
@@ -213,8 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98632F77275AC400003133F6 /* SignUpViewController.swift in Sources */,
 				378986D52751B3EC00BDCC80 /* LoginViewController.swift in Sources */,
 				37331A802751A9100060F7FE /* ViewController.swift in Sources */,
+				98632F75275AB6E5003133F6 /* FeedViewController.swift in Sources */,
 				37331A7C2751A9100060F7FE /* AppDelegate.swift in Sources */,
 				37331A7E2751A9100060F7FE /* SceneDelegate.swift in Sources */,
 			);

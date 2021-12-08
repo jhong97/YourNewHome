@@ -8,6 +8,7 @@ target 'yourNewHome' do
   # Pods for yourNewHome
   pod 'AlamofireImage'
   pod 'MessageInputBar'
+  pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
  

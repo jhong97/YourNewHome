@@ -155,3 +155,7 @@ Week 11 Demo:
 
 
 <img src='/Demo/userLogin.gif' title='Video Walkthrough' width='150' alt='Video Walkthrough' />
+
+Week 12 Demo:
+
+<img src='/Demo/completedLogin.gif' title='Video Walkthrough' width='150' alt='Video Walkthrough' />

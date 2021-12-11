@@ -30,6 +30,8 @@ Our goal is to enable potential owners to find the right pet, giving each shelte
 - [x] User have a login screen
 - [x] User can register a new account
 - [x] User can login 
+- [x] User can easily sign-in multiple ways
+- [x] User is automatically signed-in after signup
 - [ ] User can select the attributes and characteristics of pets 
 - [ ] User can add pets to intereseted/not interested by swiping left and right
 - [ ] User can select the pets 

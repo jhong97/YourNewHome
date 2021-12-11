@@ -86,6 +86,15 @@
                     <view key="view" contentMode="scaleToFill" id="wjB-rq-xDQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="W.I.P." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cjx-w6-gxO">
+                                <rect key="frame" x="135" y="292" width="182" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="iay-Py-EQc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -93,7 +102,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ZH-XQ-LRe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2108.695652173913" y="83.705357142857139"/>
+            <point key="canvasLocation" x="2107.2463768115945" y="83.705357142857139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0mb-X5-bEj">
@@ -149,6 +158,9 @@
                                 <color key="tintColor" red="0.48463013319999998" green="0.52977704039999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Register"/>
+                                <connections>
+                                    <action selector="onSignUp:" destination="LrK-ls-snk" eventType="touchUpInside" id="0cN-In-lbh"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eWK-AG-J4E">
                                 <rect key="frame" x="87" y="364" width="240" height="34"/>
@@ -166,12 +178,20 @@
                         <viewLayoutGuide key="safeArea" id="ZSD-HO-QMF"/>
                         <color key="backgroundColor" red="0.41960784313725491" green="0.52156862745098043" blue="0.81176470588235294" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="eWK-AG-J4E" id="t9Q-xz-kUS"/>
+                        <outlet property="passTextField" destination="xs8-si-oK5" id="aJV-25-IH8"/>
+                        <segue destination="dBO-aP-V4m" kind="presentation" identifier="successSignUp" id="63L-FE-tlf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DP8-8h-DFD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28.985507246376812" y="886.60714285714278"/>
+            <point key="canvasLocation" x="29" y="816"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="63L-FE-tlf"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="appLogo" width="736" height="549"/>
         <systemColor name="systemBackgroundColor">
